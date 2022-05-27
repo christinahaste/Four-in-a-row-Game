@@ -3,9 +3,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const result = document.querySelector('#result');
     const displayCurrentPlayer = document.querySelector('#current-player');
     let currentPlayer = 1;
-    modalIntro = document.getElementById('modalIntro');
-    const modal = document.getElementById('myModal');
-    const modal2 = document.getElementById('myModal2');
+    modalIntro = document.getElementById('modal-intro');
+    const modal = document.getElementById('my-modal');
+    const modal2 = document.getElementById('my-modal-two');
     const span = document.getElementsByClassName("close")[0];
     const span2 = document.getElementsByClassName("close")[1];
 
@@ -117,7 +117,7 @@ function checkBoard() {
     [12, 19, 26, 33],
     [13, 20, 27, 34],
   ]
-//take the values in each winningArray and put them into the squares
+
   for(let y = 0; y < winningArrays.length; y++) {
       const square1 = squares[winningArrays[y][0]]
       const square2 = squares[winningArrays[y][1]]
