@@ -29,10 +29,9 @@ body {
     width: 100%;
     height: 100%;
     overflow: auto;
-    /* background-color: blue; */
 }
 
-#modalIntro {
+#modal-intro {
     background: 
     conic-gradient(
         rgb(143, 142, 142) 90deg,
@@ -63,12 +62,9 @@ body {
         rgba(128, 128, 128, 0.7) 270deg
     )
     top left / 60px 60px repeat;
-    /* background-color: pink; */
     margin: 15% auto;
     padding: 20px;
     border: 4px solid rgba(247, 115, 137, 1);
-
-    /* rgb(144, 39, 144); */
     width: 50%;
     height: 60%;
     border-radius: 20px;
@@ -89,8 +85,6 @@ body {
   }
 
 h3, p {
-    /* font-family: 'Monoton';
-    color: rgb(144, 39, 144); */
     font-family: 'Lobster';
     color: rgba(247, 115, 137, 1);
     font-size: 50px;
@@ -98,25 +92,15 @@ h3, p {
     margin: auto;
     text-align: center;
     text-shadow: 2px 2px rgb(106, 41, 52);
-    /* padding: 50px 10px 2px; */
-    /* margin: 5px; */
 }
 
-#myModal2 p {
+#my-modal-two p {
     text-shadow: 1px 1px black;
     margin: auto;
     text-align: center;
 }
 
-
-/* h4, h5 {
-    font-family: 'Monoton';
-    color: rgb(144, 39, 144);
-    font-size: 30px;
-    text-shadow: 1px 1px black;
-} */
-
-#myModal span, #myModal2 span {
+#my-modal span, #myModal2 span {
     color: rgba(247, 115, 137, 1);
 }
 
@@ -129,7 +113,6 @@ button {
     border-radius: 50%;
     height: 100px;
     width: 100px;
-    /* padding: 10px; */
     margin: auto;
     margin-bottom: 12px;
     position: relative;
@@ -144,11 +127,7 @@ button:hover {
     width: 120px;
 }
 
-/* rgb(248, 223, 248) 180deg 270deg,
-            rgb(250, 207, 250) 270deg */
-
 .grid {
-    /* text-align: center; */
     display: grid;
     justify-items: center;
     grid-template-columns: repeat(7, 1fr);
